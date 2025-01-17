@@ -1,4 +1,4 @@
-import { base64ToBuffer } from './utils/encoding';
+import {base64ToBuffer, dataToBase64} from './utils/encoding';
 import { setPrivateKeyValue } from './private-key-cache';
 
 export class VirgilPrivateKey {
